@@ -23,12 +23,12 @@ h2 {
         color: #2e2f42;
 }
 
-.nav-studio {
+.nav-element {
     color: #2e2f42;
 }
 
-.nav-studio:hover,
-.nav-studio:focus {
+.nav-element:hover,
+.nav-element:focus {
     color: #404bbf;
 }
 
@@ -52,12 +52,9 @@ h2 {
     cursor: pointer;
 
     border-radius: 4px;
-        
-        width: 169px;
-        height: 56px;
 
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #4d5ae5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
 }
 
 .button-order:hover,
