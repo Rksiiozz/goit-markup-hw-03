@@ -8,23 +8,64 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 h2 {
-        font-weight: 700;
-        font-size: 36px;
+    font-weight: 700;
+    font-size: 36px;
     
-        line-height: 111%;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
+
+.container {
+    max-width: 1440px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.top-line .container{
+    display: flex;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 76px;
+}
+
+
 
 .nav-element {
     color: #2e2f42;
+
 }
 
 .nav-element:hover,
@@ -34,10 +75,32 @@ h2 {
 
 .contacts {
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 332px;
+}
+
+.contacts ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.contact {
+    font-weight: 400;
+    font-size: 16px;
+
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .section-one {
     background-color: #2e2f42;
+}
+
+.section-one .container {
+    display: flex;
 }
 
 .button-order {
@@ -146,6 +209,9 @@ h2 {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .logo-studio {
@@ -180,14 +246,7 @@ h2 {
     color: #2e2f42;
 }
 
-.contact {
-        font-weight: 400;
-        font-size: 16px;
-    
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
+
 
 .contact:hover,
 .contact:focus {
