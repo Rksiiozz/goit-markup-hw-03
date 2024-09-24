@@ -41,10 +41,16 @@ h2 {
 }
 
 .container {
-    max-width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
-    margin: 0;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container .header-container{
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .top-line {
@@ -57,6 +63,33 @@ h2 {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px
+}
+
+.logo-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 
 .site-nav {
@@ -72,7 +105,6 @@ h2 {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-left: 76px;
 }
 
 .nav-element {
@@ -94,7 +126,7 @@ h2 {
     font-style: normal;
     padding-top: 24px;
     padding-bottom: 24px;
-    
+    margin-left: auto;
     
 }
 
@@ -115,11 +147,27 @@ h2 {
 
 .section-one {
     background-color: #2e2f42;
-    padding: 188px 0;
+    padding: 188px;
 }
 
-.section-one .container {
-    display: flex;
+.section-one .container{
+    max-width: 1158px;
+
+}
+
+.name-page {
+    font-weight: 700;
+    font-size: 56px;
+
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .button-order {
@@ -134,6 +182,10 @@ h2 {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
     cursor: pointer;
     background: #4d5ae5;
@@ -305,44 +357,6 @@ h2 {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-}
-
-.name-page {
-    font-weight: 700;
-    font-size: 56px;
-
-    line-height: 107%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-
-    max-width: 496px;
-}
-
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin-right: 76px
-}
-
-.logo-studio {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
 }
 
 .logo-studio-footer {
